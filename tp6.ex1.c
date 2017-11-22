@@ -53,3 +53,24 @@ i++;
 }
 return 0;
 }
+}
+void majuscule( char *ch)
+{int i=1;
+ch[0]=ch[0]-32;
+while(ch[i]!='\0')
+{
+	if(ch[i]==' '  || ch[i]=='?' || ch[i]=='!'|| ch[i]=='.'|| ch[i]==';' || ch[i]==':'&&ch[i]>'a' && ch[i]<'z')
+{
+	i++ ;
+	ch[i]=ch[i]-32;
+}
+i++;
+}
+}
+int main ()
+const int max=100;
+char ch[max];
+
+}
+	}
+}
